@@ -1,0 +1,22 @@
+{
+  "name": "login_try",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.2",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "oracledb": "^3.1.2",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

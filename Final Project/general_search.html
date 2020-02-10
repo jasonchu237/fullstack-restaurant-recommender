@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>General Search</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/general_search.css">
+</head>
+
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+    <div class="testbox">
+      <h1>Want to find somthing good ?</h1>
+      <hr>
+
+      <form action="/general_search" method="post">
+        <div class="name">
+          <!-- <h6> (Score, Avg Score, location, highest score in each region)</h6> -->
+          <a href="/Performance" class="button">Performance    (Name)</a>
+        </div>
+        <div class="name+zip">
+          <!-- <h6> (Violations, detailed information about inspections)</h6> -->
+          <a href="/Violation" class="button">Violation    (Name, Zip) </a>
+        </div>
+        <div class="name+score">
+          <!-- <h6> (List restaurant or market)</h6> -->
+          <a href="/Name_score_interested" class="button">Name, Score of Your Interested</a>
+        </div>
+        <div class="zip">
+          <!-- <h6> (Find the one with highest score, list top ten, inspector of this region)</h6> -->
+          <a href="/Top_performance" class="button">Top Performance (Time, Region)</a>
+        </div>
+        <div class="zip+score">
+          <!-- <h6> (Custom search of your interest)</h6> -->
+          <a href="/Search_score_range" class="button">Search with Score Range (Zip, Score)</a>
+        </div>
+        <div class="service_description">
+          <!-- <h6> (List ownername, restaurant or market)</h6> -->
+          <a href="/Quality_operator" class="button">High Quality Operator (Zip)</a>
+        </div>
+        <div class="">
+          <a href="/Prediction" class="button2">Predeiction</a>
+          <!-- <a href="#" class="button">Register</a> -->
+        </div>
+        <hr>
+        <br>
+        <div class="">
+          <a class="button3" href="/Are_u_inspector">Are you an inspector?</a>
+          <!-- <a href="#" class="button">Register</a> -->
+        </div>
+        <div class="">
+          <a href="/" class="button4">Return</a>
+          <!-- <a href="#" class="button">Register</a> -->
+        </div>
+
+      </form>
+    </div>
+
+  <!-- <div class="zip+count">
+    <h6> (Name list)</h6>
+    <a href="/" class="button">Find the restaurants or markets that have inspection time less than you specified in history ?</a>
+  </div>
+  <div class="owner">
+    <h6> (Name list)</h6>
+    <a href="/" class="button">Find the restaurants or markets operated by someone you know ?</a>
+  </div>
+  <div class="score+count">
+    <h6> (List ownername)</h6>
+    <a href="/" class="button">Find the owner whose restaurant or market need to inspect more frequently ?</a>
+  </div> -->
+
+</body>
+
+</html>
